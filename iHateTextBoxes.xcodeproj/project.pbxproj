@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB47E42719D372AD0082D088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB47E42619D372AD0082D088 /* Foundation.framework */; };
+		AB47E42919D372AD0082D088 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB47E42819D372AD0082D088 /* CoreGraphics.framework */; };
+		AB47E42B19D372AD0082D088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB47E42A19D372AD0082D088 /* UIKit.framework */; };
+		AB47E43119D372AD0082D088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB47E42F19D372AD0082D088 /* InfoPlist.strings */; };
+		AB47E43319D372AD0082D088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47E43219D372AD0082D088 /* main.m */; };
+		AB47E43719D372AD0082D088 /* DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47E43619D372AD0082D088 /* DemoAppDelegate.m */; };
+		AB47E43A19D372AD0082D088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB47E43819D372AD0082D088 /* Main.storyboard */; };
+		AB47E43D19D372AD0082D088 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47E43C19D372AD0082D088 /* DemoViewController.m */; };
+		AB47E43F19D372AD0082D088 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB47E43E19D372AD0082D088 /* Images.xcassets */; };
+		AB47E44619D372AD0082D088 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB47E44519D372AD0082D088 /* XCTest.framework */; };
+		AB47E44719D372AD0082D088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB47E42619D372AD0082D088 /* Foundation.framework */; };
+		AB47E44819D372AD0082D088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB47E42A19D372AD0082D088 /* UIKit.framework */; };
+		AB47E45019D372AD0082D088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB47E44E19D372AD0082D088 /* InfoPlist.strings */; };
+		AB47E45219D372AD0082D088 /* iHateTextBoxesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47E45119D372AD0082D088 /* iHateTextBoxesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB47E44919D372AD0082D088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB47E41B19D372AD0082D088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB47E42219D372AD0082D088;
+			remoteInfo = iHateTextBoxes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB47E42319D372AD0082D088 /* iHateTextBoxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHateTextBoxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB47E42619D372AD0082D088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB47E42819D372AD0082D088 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB47E42A19D372AD0082D088 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB47E42E19D372AD0082D088 /* iHateTextBoxes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHateTextBoxes-Info.plist"; sourceTree = "<group>"; };
+		AB47E43019D372AD0082D088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB47E43219D372AD0082D088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB47E43419D372AD0082D088 /* iHateTextBoxes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHateTextBoxes-Prefix.pch"; sourceTree = "<group>"; };
+		AB47E43519D372AD0082D088 /* DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
+		AB47E43619D372AD0082D088 /* DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
+		AB47E43919D372AD0082D088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB47E43B19D372AD0082D088 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		AB47E43C19D372AD0082D088 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		AB47E43E19D372AD0082D088 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB47E44419D372AD0082D088 /* iHateTextBoxesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHateTextBoxesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB47E44519D372AD0082D088 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AB47E44D19D372AD0082D088 /* iHateTextBoxesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHateTextBoxesTests-Info.plist"; sourceTree = "<group>"; };
+		AB47E44F19D372AD0082D088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB47E45119D372AD0082D088 /* iHateTextBoxesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHateTextBoxesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB47E42019D372AD0082D088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47E42919D372AD0082D088 /* CoreGraphics.framework in Frameworks */,
+				AB47E42B19D372AD0082D088 /* UIKit.framework in Frameworks */,
+				AB47E42719D372AD0082D088 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB47E44119D372AD0082D088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47E44619D372AD0082D088 /* XCTest.framework in Frameworks */,
+				AB47E44819D372AD0082D088 /* UIKit.framework in Frameworks */,
+				AB47E44719D372AD0082D088 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB47E41A19D372AD0082D088 = {
+			isa = PBXGroup;
+			children = (
+				AB47E42C19D372AD0082D088 /* iHateTextBoxes */,
+				AB47E44B19D372AD0082D088 /* iHateTextBoxesTests */,
+				AB47E42519D372AD0082D088 /* Frameworks */,
+				AB47E42419D372AD0082D088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB47E42419D372AD0082D088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB47E42319D372AD0082D088 /* iHateTextBoxes.app */,
+				AB47E44419D372AD0082D088 /* iHateTextBoxesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB47E42519D372AD0082D088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB47E42619D372AD0082D088 /* Foundation.framework */,
+				AB47E42819D372AD0082D088 /* CoreGraphics.framework */,
+				AB47E42A19D372AD0082D088 /* UIKit.framework */,
+				AB47E44519D372AD0082D088 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB47E42C19D372AD0082D088 /* iHateTextBoxes */ = {
+			isa = PBXGroup;
+			children = (
+				AB47E43519D372AD0082D088 /* DemoAppDelegate.h */,
+				AB47E43619D372AD0082D088 /* DemoAppDelegate.m */,
+				AB47E43819D372AD0082D088 /* Main.storyboard */,
+				AB47E43B19D372AD0082D088 /* DemoViewController.h */,
+				AB47E43C19D372AD0082D088 /* DemoViewController.m */,
+				AB47E43E19D372AD0082D088 /* Images.xcassets */,
+				AB47E42D19D372AD0082D088 /* Supporting Files */,
+			);
+			path = iHateTextBoxes;
+			sourceTree = "<group>";
+		};
+		AB47E42D19D372AD0082D088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB47E42E19D372AD0082D088 /* iHateTextBoxes-Info.plist */,
+				AB47E42F19D372AD0082D088 /* InfoPlist.strings */,
+				AB47E43219D372AD0082D088 /* main.m */,
+				AB47E43419D372AD0082D088 /* iHateTextBoxes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB47E44B19D372AD0082D088 /* iHateTextBoxesTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB47E45119D372AD0082D088 /* iHateTextBoxesTests.m */,
+				AB47E44C19D372AD0082D088 /* Supporting Files */,
+			);
+			path = iHateTextBoxesTests;
+			sourceTree = "<group>";
+		};
+		AB47E44C19D372AD0082D088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB47E44D19D372AD0082D088 /* iHateTextBoxesTests-Info.plist */,
+				AB47E44E19D372AD0082D088 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB47E42219D372AD0082D088 /* iHateTextBoxes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB47E45519D372AD0082D088 /* Build configuration list for PBXNativeTarget "iHateTextBoxes" */;
+			buildPhases = (
+				AB47E41F19D372AD0082D088 /* Sources */,
+				AB47E42019D372AD0082D088 /* Frameworks */,
+				AB47E42119D372AD0082D088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHateTextBoxes;
+			productName = iHateTextBoxes;
+			productReference = AB47E42319D372AD0082D088 /* iHateTextBoxes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB47E44319D372AD0082D088 /* iHateTextBoxesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB47E45819D372AD0082D088 /* Build configuration list for PBXNativeTarget "iHateTextBoxesTests" */;
+			buildPhases = (
+				AB47E44019D372AD0082D088 /* Sources */,
+				AB47E44119D372AD0082D088 /* Frameworks */,
+				AB47E44219D372AD0082D088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB47E44A19D372AD0082D088 /* PBXTargetDependency */,
+			);
+			name = iHateTextBoxesTests;
+			productName = iHateTextBoxesTests;
+			productReference = AB47E44419D372AD0082D088 /* iHateTextBoxesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB47E41B19D372AD0082D088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Demo;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jake Hawkinson";
+				TargetAttributes = {
+					AB47E44319D372AD0082D088 = {
+						TestTargetID = AB47E42219D372AD0082D088;
+					};
+				};
+			};
+			buildConfigurationList = AB47E41E19D372AD0082D088 /* Build configuration list for PBXProject "iHateTextBoxes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB47E41A19D372AD0082D088;
+			productRefGroup = AB47E42419D372AD0082D088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB47E42219D372AD0082D088 /* iHateTextBoxes */,
+				AB47E44319D372AD0082D088 /* iHateTextBoxesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB47E42119D372AD0082D088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47E43F19D372AD0082D088 /* Images.xcassets in Resources */,
+				AB47E43119D372AD0082D088 /* InfoPlist.strings in Resources */,
+				AB47E43A19D372AD0082D088 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB47E44219D372AD0082D088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47E45019D372AD0082D088 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB47E41F19D372AD0082D088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47E43D19D372AD0082D088 /* DemoViewController.m in Sources */,
+				AB47E43319D372AD0082D088 /* main.m in Sources */,
+				AB47E43719D372AD0082D088 /* DemoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB47E44019D372AD0082D088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB47E45219D372AD0082D088 /* iHateTextBoxesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB47E44A19D372AD0082D088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB47E42219D372AD0082D088 /* iHateTextBoxes */;
+			targetProxy = AB47E44919D372AD0082D088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB47E42F19D372AD0082D088 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB47E43019D372AD0082D088 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB47E43819D372AD0082D088 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB47E43919D372AD0082D088 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB47E44E19D372AD0082D088 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB47E44F19D372AD0082D088 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB47E45319D372AD0082D088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB47E45419D372AD0082D088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB47E45619D372AD0082D088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHateTextBoxes/iHateTextBoxes-Prefix.pch";
+				INFOPLIST_FILE = "iHateTextBoxes/iHateTextBoxes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB47E45719D372AD0082D088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHateTextBoxes/iHateTextBoxes-Prefix.pch";
+				INFOPLIST_FILE = "iHateTextBoxes/iHateTextBoxes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AB47E45919D372AD0082D088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iHateTextBoxes.app/iHateTextBoxes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHateTextBoxes/iHateTextBoxes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iHateTextBoxesTests/iHateTextBoxesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AB47E45A19D372AD0082D088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iHateTextBoxes.app/iHateTextBoxes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHateTextBoxes/iHateTextBoxes-Prefix.pch";
+				INFOPLIST_FILE = "iHateTextBoxesTests/iHateTextBoxesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB47E41E19D372AD0082D088 /* Build configuration list for PBXProject "iHateTextBoxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB47E45319D372AD0082D088 /* Debug */,
+				AB47E45419D372AD0082D088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB47E45519D372AD0082D088 /* Build configuration list for PBXNativeTarget "iHateTextBoxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB47E45619D372AD0082D088 /* Debug */,
+				AB47E45719D372AD0082D088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB47E45819D372AD0082D088 /* Build configuration list for PBXNativeTarget "iHateTextBoxesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB47E45919D372AD0082D088 /* Debug */,
+				AB47E45A19D372AD0082D088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB47E41B19D372AD0082D088 /* Project object */;
+}
