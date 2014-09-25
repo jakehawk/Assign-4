@@ -21,6 +21,10 @@
 		AB47E44819D372AD0082D088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB47E42A19D372AD0082D088 /* UIKit.framework */; };
 		AB47E45019D372AD0082D088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB47E44E19D372AD0082D088 /* InfoPlist.strings */; };
 		AB47E45219D372AD0082D088 /* iHateTextBoxesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB47E45119D372AD0082D088 /* iHateTextBoxesTests.m */; };
+		AB47E46019D3E99F0082D088 /* normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB47E45C19D3E99F0082D088 /* normal.jpg */; };
+		AB47E46119D3E99F0082D088 /* obese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB47E45D19D3E99F0082D088 /* obese.jpg */; };
+		AB47E46219D3E99F0082D088 /* overweight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB47E45E19D3E99F0082D088 /* overweight.jpg */; };
+		AB47E46319D3E99F0082D088 /* underweight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB47E45F19D3E99F0082D088 /* underweight.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +38,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AB47E42319D372AD0082D088 /* iHateTextBoxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHateTextBoxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB47E42319D372AD0082D088 /* Assign 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assign 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB47E42619D372AD0082D088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB47E42819D372AD0082D088 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AB47E42A19D372AD0082D088 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		AB47E42E19D372AD0082D088 /* iHateTextBoxes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHateTextBoxes-Info.plist"; sourceTree = "<group>"; };
+		AB47E42E19D372AD0082D088 /* Assign 4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assign 4-Info.plist"; sourceTree = "<group>"; };
 		AB47E43019D372AD0082D088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB47E43219D372AD0082D088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB47E43419D372AD0082D088 /* iHateTextBoxes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHateTextBoxes-Prefix.pch"; sourceTree = "<group>"; };
+		AB47E43419D372AD0082D088 /* Assign 4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assign 4-Prefix.pch"; sourceTree = "<group>"; };
 		AB47E43519D372AD0082D088 /* DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
 		AB47E43619D372AD0082D088 /* DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
 		AB47E43919D372AD0082D088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB47E43B19D372AD0082D088 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		AB47E43C19D372AD0082D088 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		AB47E43E19D372AD0082D088 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AB47E44419D372AD0082D088 /* iHateTextBoxesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHateTextBoxesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB47E44419D372AD0082D088 /* Assign 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assign 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB47E44519D372AD0082D088 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AB47E44D19D372AD0082D088 /* iHateTextBoxesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHateTextBoxesTests-Info.plist"; sourceTree = "<group>"; };
+		AB47E44D19D372AD0082D088 /* Assign 4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assign 4Tests-Info.plist"; sourceTree = "<group>"; };
 		AB47E44F19D372AD0082D088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB47E45119D372AD0082D088 /* iHateTextBoxesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHateTextBoxesTests.m; sourceTree = "<group>"; };
+		AB47E45C19D3E99F0082D088 /* normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = normal.jpg; path = bmidrawings/normal.jpg; sourceTree = "<group>"; };
+		AB47E45D19D3E99F0082D088 /* obese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = obese.jpg; path = bmidrawings/obese.jpg; sourceTree = "<group>"; };
+		AB47E45E19D3E99F0082D088 /* overweight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = overweight.jpg; path = bmidrawings/overweight.jpg; sourceTree = "<group>"; };
+		AB47E45F19D3E99F0082D088 /* underweight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = underweight.jpg; path = bmidrawings/underweight.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +90,8 @@
 		AB47E41A19D372AD0082D088 = {
 			isa = PBXGroup;
 			children = (
-				AB47E42C19D372AD0082D088 /* iHateTextBoxes */,
-				AB47E44B19D372AD0082D088 /* iHateTextBoxesTests */,
+				AB47E42C19D372AD0082D088 /* Assign 4 */,
+				AB47E44B19D372AD0082D088 /* Assign 4Tests */,
 				AB47E42519D372AD0082D088 /* Frameworks */,
 				AB47E42419D372AD0082D088 /* Products */,
 			);
@@ -92,8 +100,8 @@
 		AB47E42419D372AD0082D088 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB47E42319D372AD0082D088 /* iHateTextBoxes.app */,
-				AB47E44419D372AD0082D088 /* iHateTextBoxesTests.xctest */,
+				AB47E42319D372AD0082D088 /* Assign 4.app */,
+				AB47E44419D372AD0082D088 /* Assign 4Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +117,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AB47E42C19D372AD0082D088 /* iHateTextBoxes */ = {
+		AB47E42C19D372AD0082D088 /* Assign 4 */ = {
 			isa = PBXGroup;
 			children = (
 				AB47E43519D372AD0082D088 /* DemoAppDelegate.h */,
@@ -120,33 +128,39 @@
 				AB47E43E19D372AD0082D088 /* Images.xcassets */,
 				AB47E42D19D372AD0082D088 /* Supporting Files */,
 			);
+			name = "Assign 4";
 			path = iHateTextBoxes;
 			sourceTree = "<group>";
 		};
 		AB47E42D19D372AD0082D088 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB47E42E19D372AD0082D088 /* iHateTextBoxes-Info.plist */,
+				AB47E45F19D3E99F0082D088 /* underweight.jpg */,
+				AB47E45E19D3E99F0082D088 /* overweight.jpg */,
+				AB47E45D19D3E99F0082D088 /* obese.jpg */,
+				AB47E45C19D3E99F0082D088 /* normal.jpg */,
+				AB47E42E19D372AD0082D088 /* Assign 4-Info.plist */,
 				AB47E42F19D372AD0082D088 /* InfoPlist.strings */,
 				AB47E43219D372AD0082D088 /* main.m */,
-				AB47E43419D372AD0082D088 /* iHateTextBoxes-Prefix.pch */,
+				AB47E43419D372AD0082D088 /* Assign 4-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AB47E44B19D372AD0082D088 /* iHateTextBoxesTests */ = {
+		AB47E44B19D372AD0082D088 /* Assign 4Tests */ = {
 			isa = PBXGroup;
 			children = (
 				AB47E45119D372AD0082D088 /* iHateTextBoxesTests.m */,
 				AB47E44C19D372AD0082D088 /* Supporting Files */,
 			);
+			name = "Assign 4Tests";
 			path = iHateTextBoxesTests;
 			sourceTree = "<group>";
 		};
 		AB47E44C19D372AD0082D088 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB47E44D19D372AD0082D088 /* iHateTextBoxesTests-Info.plist */,
+				AB47E44D19D372AD0082D088 /* Assign 4Tests-Info.plist */,
 				AB47E44E19D372AD0082D088 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +169,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB47E42219D372AD0082D088 /* iHateTextBoxes */ = {
+		AB47E42219D372AD0082D088 /* Assign 4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB47E45519D372AD0082D088 /* Build configuration list for PBXNativeTarget "iHateTextBoxes" */;
+			buildConfigurationList = AB47E45519D372AD0082D088 /* Build configuration list for PBXNativeTarget "Assign 4" */;
 			buildPhases = (
 				AB47E41F19D372AD0082D088 /* Sources */,
 				AB47E42019D372AD0082D088 /* Frameworks */,
@@ -167,14 +181,14 @@
 			);
 			dependencies = (
 			);
-			name = iHateTextBoxes;
+			name = "Assign 4";
 			productName = iHateTextBoxes;
-			productReference = AB47E42319D372AD0082D088 /* iHateTextBoxes.app */;
+			productReference = AB47E42319D372AD0082D088 /* Assign 4.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB47E44319D372AD0082D088 /* iHateTextBoxesTests */ = {
+		AB47E44319D372AD0082D088 /* Assign 4Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB47E45819D372AD0082D088 /* Build configuration list for PBXNativeTarget "iHateTextBoxesTests" */;
+			buildConfigurationList = AB47E45819D372AD0082D088 /* Build configuration list for PBXNativeTarget "Assign 4Tests" */;
 			buildPhases = (
 				AB47E44019D372AD0082D088 /* Sources */,
 				AB47E44119D372AD0082D088 /* Frameworks */,
@@ -185,9 +199,9 @@
 			dependencies = (
 				AB47E44A19D372AD0082D088 /* PBXTargetDependency */,
 			);
-			name = iHateTextBoxesTests;
+			name = "Assign 4Tests";
 			productName = iHateTextBoxesTests;
-			productReference = AB47E44419D372AD0082D088 /* iHateTextBoxesTests.xctest */;
+			productReference = AB47E44419D372AD0082D088 /* Assign 4Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB47E41E19D372AD0082D088 /* Build configuration list for PBXProject "iHateTextBoxes" */;
+			buildConfigurationList = AB47E41E19D372AD0082D088 /* Build configuration list for PBXProject "Assign 4" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +232,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB47E42219D372AD0082D088 /* iHateTextBoxes */,
-				AB47E44319D372AD0082D088 /* iHateTextBoxesTests */,
+				AB47E42219D372AD0082D088 /* Assign 4 */,
+				AB47E44319D372AD0082D088 /* Assign 4Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +243,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB47E46119D3E99F0082D088 /* obese.jpg in Resources */,
 				AB47E43F19D372AD0082D088 /* Images.xcassets in Resources */,
 				AB47E43119D372AD0082D088 /* InfoPlist.strings in Resources */,
+				AB47E46019D3E99F0082D088 /* normal.jpg in Resources */,
+				AB47E46319D3E99F0082D088 /* underweight.jpg in Resources */,
 				AB47E43A19D372AD0082D088 /* Main.storyboard in Resources */,
+				AB47E46219D3E99F0082D088 /* overweight.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +287,7 @@
 /* Begin PBXTargetDependency section */
 		AB47E44A19D372AD0082D088 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB47E42219D372AD0082D088 /* iHateTextBoxes */;
+			target = AB47E42219D372AD0082D088 /* Assign 4 */;
 			targetProxy = AB47E44919D372AD0082D088 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,9 +396,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iHateTextBoxes/iHateTextBoxes-Prefix.pch";
-				INFOPLIST_FILE = "iHateTextBoxes/iHateTextBoxes-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "iHateTextBoxes/Assign 4-Prefix.pch";
+				INFOPLIST_FILE = "iHateTextBoxes/Assign 4-Info.plist";
+				PRODUCT_NAME = "Assign 4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,9 +409,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iHateTextBoxes/iHateTextBoxes-Prefix.pch";
-				INFOPLIST_FILE = "iHateTextBoxes/iHateTextBoxes-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "iHateTextBoxes/Assign 4-Prefix.pch";
+				INFOPLIST_FILE = "iHateTextBoxes/Assign 4-Info.plist";
+				PRODUCT_NAME = "Assign 4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +431,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "iHateTextBoxesTests/iHateTextBoxesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "iHateTextBoxesTests/Assign 4Tests-Info.plist";
+				PRODUCT_NAME = "Assign 4Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +449,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iHateTextBoxes/iHateTextBoxes-Prefix.pch";
-				INFOPLIST_FILE = "iHateTextBoxesTests/iHateTextBoxesTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "iHateTextBoxesTests/Assign 4Tests-Info.plist";
+				PRODUCT_NAME = "Assign 4Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +459,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB47E41E19D372AD0082D088 /* Build configuration list for PBXProject "iHateTextBoxes" */ = {
+		AB47E41E19D372AD0082D088 /* Build configuration list for PBXProject "Assign 4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB47E45319D372AD0082D088 /* Debug */,
@@ -450,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB47E45519D372AD0082D088 /* Build configuration list for PBXNativeTarget "iHateTextBoxes" */ = {
+		AB47E45519D372AD0082D088 /* Build configuration list for PBXNativeTarget "Assign 4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB47E45619D372AD0082D088 /* Debug */,
@@ -458,7 +476,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		AB47E45819D372AD0082D088 /* Build configuration list for PBXNativeTarget "iHateTextBoxesTests" */ = {
+		AB47E45819D372AD0082D088 /* Build configuration list for PBXNativeTarget "Assign 4Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB47E45919D372AD0082D088 /* Debug */,
